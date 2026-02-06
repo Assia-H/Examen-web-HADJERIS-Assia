@@ -1,0 +1,49 @@
+#main-article {
+    background-color:rgb(122, 141, 250);
+} 
+
+.article {
+    margin: 50px;
+    color:aliceblue;
+    padding: 25px;
+    border: 5px solid rgb(168, 137, 253);
+    border-radius: 10px;
+    width: 400px;
+    height: 300px;
+    background-color: rgb(122, 141, 250);
+    font-size: x-large;
+
+}
+
+header {
+    background-color:rgb(209, 133, 203);
+    color:rgb(104, 28, 87);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 35px;
+    
+}
+
+nav ul {
+    display: flex;
+}
+li {
+    list-style-type: none;
+    margin: 35px;
+}
+
+a {
+    color:rgb(104, 28, 87);
+    text-decoration: none;
+    font-size: large;
+}
+
+main {
+    display: flex;
+    
+}
+
+div {
+    flex-flow: column wrap;
+}
